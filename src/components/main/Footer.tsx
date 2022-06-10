@@ -4,9 +4,9 @@ import { Icon } from "@iconify/react";
 const Footer = () => {
     return (<>
 
-        <footer className="p-4   shadow md:px-8 md:py-5  text-white bg-secondColor">
+        <footer className=" p-4 shadow md:px-8 md:py-5  text-white bg-secondColor">
             <div className="sm:flex sm:items-center sm:justify-between">
-                <div className="items-center mb-4 sm:mb-0">
+                <div className=" items-center mb-4 sm:mb-0">
                     
                     <img src="/assets/main/logo.png" className="mr-3 mb-1 h-8 " alt="Flowbite Logo" />
                     
