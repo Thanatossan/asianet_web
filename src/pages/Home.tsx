@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from '../components/main/Navbar';
 import Footer from '../components/main/Footer';
+import Menu from '../components/main/Menu';
 export interface IHomePageProps{}
 
 const HomePage: React.FC<IHomePageProps> = (props) =>{
@@ -8,9 +9,11 @@ const HomePage: React.FC<IHomePageProps> = (props) =>{
         <>
         <div>
             <Navbar></Navbar>
+
             <div className="h-screen"></div>
             <Footer></Footer>
         </div>
+        
         </>
     )
 }

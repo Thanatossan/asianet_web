@@ -1,12 +1,18 @@
 import React from "react";
-export interface IAboutPageProps{}
+import Navbar from "../components/main/Navbar";
+import Menu from "../components/main/Menu";
+import Footer from "../components/main/Footer";
+export interface IAboutPageProps { }
 
-const AboutUsPage: React.FC<IAboutPageProps> = (props) =>{
-    return(
+const AboutUsPage: React.FC<IAboutPageProps> = (props) => {
+    return (
         <>
-        <div>
-            <p>AboutUsPage</p>
-        </div>
+            <div>
+                <Navbar></Navbar>
+                <Menu current={'About Us'} descript={'We secure strong profitable partnerships on Asean markets'}></Menu>
+                <div className="h-screen"></div>
+                <Footer></Footer>
+            </div>
         </>
     )
 }
