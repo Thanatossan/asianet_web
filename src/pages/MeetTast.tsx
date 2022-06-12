@@ -5,17 +5,16 @@ import Footer from "../components/main/Footer";
 import MeetTastComponent from "../components/page/MeetTastComponent";
 const arrayImg = [{
     name:"HOSTED A WINE TASTING",
-    arrayPath: ["/assets/page/newGallery/HOSTED A WINE TASTING/MEET _ TEST7.png",
-    "/assets/page/newGallery/HOSTED A WINE TASTING/MEET _ TEST8.png",
-    "/assets/page/newGallery/HOSTED A WINE TASTING/News and Gallery 10.png"],
-    description: "On the April 1, 2022 We hosteda wine tasting event and dinner for the importers, WINE5 Company from Thailand and the other guests at L’orangerie Demigny. We had a great time by enjoying the wine, dining and facilities of our place with the excellent food, prepared by La Comédie du Vin"
-},{
-    name:"LES GRANDS JOURS DE BOURGOGNE",
-    arrayPath: ["/assets/page/newGallery/LES GRANDS JOURS DE BOURGOGNE/News and Gallery 13.png",
-    "/assets/page/newGallery/LES GRANDS JOURS DE BOURGOGNE/News and Gallery 14.png",
-    "/assets/page/newGallery/LES GRANDS JOURS DE BOURGOGNE/News and Gallery 15.png",
-    "/assets/page/newGallery/LES GRANDS JOURS DE BOURGOGNE/News and Gallery 16.png"],
-    description: "On March 20-25, 2022. There was the great international event as Les Grands Jours de Bourgogne, the wine event for International meetings trade only. DE SURMAIN Emmanuel and the staff ofASIANET FINE SOURCING had participated to this event for tasting and looking for the great wine for ourcustomers."
+    arrayPath: ["/assets/page/meetTast/1/MEET _ TEST1.png",
+    "/assets/page/meetTast/1/MEET _ TEST2.png",
+    "/assets/page/meetTast/1/MEET _ TEST3.png",
+    "/assets/page/meetTast/1/MEET _ TEST4.png",
+    "/assets/page/meetTast/1/MEET _ TEST5.png",
+    "/assets/page/meetTast/1/MEET _ TEST6.png",
+    "/assets/page/meetTast/2/MEET _ TEST7.png",
+    "/assets/page/meetTast/2/MEET _ TEST8.png"
+],
+description: "On March 20-25, 2022. There was the great international event as Les Grands Jours de Bourgogne, the wine event for International meetings trade only. DE SURMAIN Emmanuel and the staff ofASIANET FINE SOURCING had participated to this event for tasting and looking for the great wine for ourcustomers."
 }
 ]
 const MeetTastPage = () => {
