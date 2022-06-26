@@ -9,7 +9,7 @@ const HomePage: React.FC<IHomePageProps> = (props) =>{
         <>
         <div>
             <Navbar></Navbar>
-
+            
             <div className="h-screen"></div>
             <Footer></Footer>
         </div>
