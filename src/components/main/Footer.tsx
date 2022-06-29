@@ -8,7 +8,7 @@ const Footer = () => {
             <div className="sm:flex sm:items-center sm:justify-between">
                 <div className=" items-center mb-4 sm:mb-0">
                     
-                    <img src="/assets/main/logo.png" className="mr-3 mb-1 h-8 " alt="Flowbite Logo" />
+                    <img src="/assets/main/logo.png" className="mr-3 mb-1 h-8 " alt="asianet Logo" />
                     
                     <div className="text-xs py-2 sm:hidden md:block ">
                         <p>Asianet Fine Sourcing agency was established since 2015.</p>
