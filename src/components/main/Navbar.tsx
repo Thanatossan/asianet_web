@@ -18,14 +18,16 @@ const Navbar = () => {
                 className="px-2 py-2 flex  "
                 href="#pablo"
               >
-                <Icon icon="entypo:mail" />
+                <Icon icon="bxl:facebook" />
               </a>
             </li>
             <li >
+              
               <a
                 className="px-2 py-2 flex  "
                 href="#pablo"
               >
+                
                 <Icon icon="akar-icons:instagram-fill" />
               </a>
             </li>
@@ -35,7 +37,8 @@ const Navbar = () => {
                 className="px-2 py-2 flex"
                 href="#pablo"
               >
-                <Icon icon="bxl:facebook" />
+                <Icon icon="entypo:mail" />
+                
               </a>
             </li>
           </ul>
