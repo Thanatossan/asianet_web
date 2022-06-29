@@ -11,10 +11,10 @@ return(
         {backgroundImage: "url(/assets/main/menubackground.png)"}
         }> */}
 
-        <div className='bg-[url("/src/images/menubackground.png")] text-white bg-no-repeat w-full bg-fixed bg-cover'>
+        <div className='bg-[url("/src/images/menubackground.png")] text-white bg-no-repeat w-full bg-fixed bg-cover '>
             <div className="h-48">
             <div className="container mx-auto">
-                <div className="flex items-center justify-between pt-6 font-semibold">
+                <div className="flex items-center justify-between pt-6 font-semibold susm:hidden md:flex">
                     <a href="/"> Home </a>
                     <a href="/aboutUs"> About us </a>
                     <a href="/domaine"> Domaine </a>

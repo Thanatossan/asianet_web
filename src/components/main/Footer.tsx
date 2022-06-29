@@ -4,13 +4,13 @@ import { Icon } from "@iconify/react";
 const Footer = () => {
     return (<>
 
-        <footer className=" p-4 shadow md:px-8 md:py-5  text-white bg-secondColor">
+        <footer className=" p-4 shadow md:px-8 md:py-2  text-white bg-secondColor">
             <div className="sm:flex sm:items-center sm:justify-between">
                 <div className=" items-center mb-4 sm:mb-0">
                     
                     <img src="/assets/main/logo.png" className="mr-3 mb-1 h-8 " alt="Flowbite Logo" />
                     
-                    <div className="text-xs py-2">
+                    <div className="text-xs py-2 sm:hidden md:block ">
                         <p>Asianet Fine Sourcing agency was established since 2015.</p>
                         <p>We are premium wine agency dedicated to bringing fine Burgundy wine to ASIAN markets.</p>
                     </div>
@@ -47,7 +47,7 @@ const Footer = () => {
                             </li>
                         </ul>
                     </div>
-                    <div className="container px-4 py-1 mx-auto flex flex-row">
+                    <div className="container px-4 py-1 mx-auto flex flex-row ">
                         <div className="px-1">
                             <Icon icon="carbon:location-filled" style={{ fontSize: '1rem' }} />
                         </div>
