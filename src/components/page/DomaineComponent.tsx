@@ -43,7 +43,7 @@ const DomaineComponent: React.FC<IDomaineComponent> = (props) => {
                 {props.arrayImg.map((img, key) => {
 
                     return (
-                        <div key={index} >
+                        <div key={key} >
                             <p className="font-normal mb-5 text-xl"> {img.name}</p>
                             <img src={img.path}
                                 alt="domain img"

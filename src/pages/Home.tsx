@@ -47,12 +47,6 @@ const HomePage: React.FC<IHomePageProps> = (props) =>{
                 </div>
                 <Footer></Footer>
             </div>
-
-
-            <div className="h-screen"></div>
-            <Footer></Footer>
-        </div>
-        
         </>
     )
 }
