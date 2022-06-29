@@ -11,12 +11,12 @@ const Navbar = () => {
           </div>
           <h1 className="font-bold text-sm susm:hidden md:block">Asianet Find Sourcing Rue la Californie 21200 Beaune FRANCE</h1>
         </div>
-        <div className="w-full w-auto " >
+        <div className=" w-auto " >
           <ul className="flex flex-row-reverse  lg:flex-row list-none lg:ml-auto px-8">
             <li>
               <a
                 className="px-2 py-2 flex  "
-                href="#pablo"
+                href="https://www.facebook.com/asianetfinesourcing"
               >
                 <Icon icon="bxl:facebook" />
               </a>
@@ -25,7 +25,7 @@ const Navbar = () => {
               
               <a
                 className="px-2 py-2 flex  "
-                href="#pablo"
+                href="https://www.instagram.com/petite_cuisine_thai/"
               >
                 
                 <Icon icon="akar-icons:instagram-fill" />
@@ -35,7 +35,7 @@ const Navbar = () => {
             <li>
               <a
                 className="px-2 py-2 flex"
-                href="#pablo"
+                href="mailto:asianetfinesourcing@gmail.com"
               >
                 <Icon icon="entypo:mail" />
                 

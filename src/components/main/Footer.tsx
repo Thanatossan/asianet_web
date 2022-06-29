@@ -23,7 +23,7 @@ const Footer = () => {
                         <li>
                                 <a
                                     className="px-2 py-2 flex  "
-                                    href="#pablo"
+                                    href="mailto:asianetfinesourcing@gmail.com"
                                 >
                                     <Icon icon="entypo:mail" />
                                 </a>
@@ -31,7 +31,7 @@ const Footer = () => {
                             <li >
                                 <a
                                     className="px-2 py-2 flex  "
-                                    href="#pablo"
+                                    href="https://www.instagram.com/petite_cuisine_thai"
                                 >
                                     <Icon icon="akar-icons:instagram-fill" />
                                 </a>
@@ -40,7 +40,7 @@ const Footer = () => {
                             <li>
                                 <a
                                     className="px-2 py-2 flex"
-                                    href="#pablo"
+                                    href="https://www.facebook.com/asianetfinesourcing"
                                 >
                                     <Icon icon="bxl:facebook" />
                                 </a>
