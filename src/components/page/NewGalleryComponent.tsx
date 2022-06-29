@@ -19,21 +19,31 @@ const NewGalleryComponent: React.FC<INewGalleryComponent> = (props) => {
                 <h1 className="text-center m-auto py-2 px-5 text-white  text-xl rounded-full bg-mainColor"> The reasons to visit Beaune </h1>
             </div>
             <div className="container mx-auto flex flex-row text-justify mb-5 ">
-                <div className="basis-1/2 px-4 flex flex-col justify-center mx-auto text-center">
+                <div className="basis-1/2 px-4 flex flex-col justify-center mx-auto text-center susm:hidden sm:block">
                     <img src="/assets/page/newGallery/News and Gallery 19 (1).png" className=" mx-auto mt-10 w-64 h-52"></img>
                     <h1>Burgundy Vineyard cycling route</h1>
                 </div>
 
-                <div className="basis-1/2 flex flex-col px-4 justify-center mx-auto text-center ">
+                <div className="basis-1/2 flex flex-col px-4 justify-center mx-auto text-center susm:hidden sm:block">
                     <img src="/assets/page/newGallery/News and Gallery 19 (3).png" className=" mx-auto mt-10 w-64 h-52"></img>
                     <h1>Wine tasting</h1>
                 </div>
             </div>
+            
             <div className="container mx-auto mb-5">
+            <div className="basis-1/2 px-4 flex flex-col justify-center mx-auto text-center susm:block sm:hidden">
+                    <img src="/assets/page/newGallery/News and Gallery 19 (1).png" className=" mx-auto mt-10 w-64 h-52"></img>
+                    <h1>Burgundy Vineyard cycling route</h1>
+                </div>
+            <div className="basis-1/2 flex flex-col px-4 justify-center mx-auto text-center susm:block sm:hidden ">
+                    <img src="/assets/page/newGallery/News and Gallery 19 (3).png" className=" mx-auto mt-10 w-64 h-52"></img>
+                    <h1>Wine tasting</h1>
+                </div>
                 <div className="flex flex-col px-4 justify-center mx-auto text-center">
                     <img src="/assets/page/newGallery/News and Gallery 19 (2).png" className=" mx-auto mt-10 w-64 h-52"></img>
                     <h1 >Hospices de Beaune</h1>
                 </div>
+                
             </div>
             <div className="container mx-auto ">
                 <p className="text-center">

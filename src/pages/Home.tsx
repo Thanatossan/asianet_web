@@ -1,12 +1,13 @@
 import React from 'react';
 import Navbar from '../components/main/Navbar';
 import Footer from '../components/main/Footer';
+import Menu from '../components/main/Menu';
+export interface IHomePageProps{}
 
-export interface IHomePageProps { }
-
-const HomePage: React.FC<IHomePageProps> = (props) => {
-    return (
+const HomePage: React.FC<IHomePageProps> = (props) =>{
+    return(
         <>
+
             <div>
                 <Navbar></Navbar>
 
@@ -47,6 +48,11 @@ const HomePage: React.FC<IHomePageProps> = (props) => {
                 <Footer></Footer>
             </div>
 
+
+            <div className="h-screen"></div>
+            <Footer></Footer>
+        </div>
+        
         </>
     )
 }

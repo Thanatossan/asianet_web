@@ -29,8 +29,28 @@ const AboutUsComponent: React.FC<IAboutUsComponent> = (props) => {
                     </Carousel>
 
                 </div>
-                <div className="container mx-auto px-20 flex flex-row text-justify indent-8 mb-5 ">
-                    <div className="basis-1/2 px-4">
+                <div className="container mx-auto px-0 flex flex-row text-justify indent-8 mb-5 ">
+                <div className="px-4 susm:block md:hidden">
+                        <p className="">
+                            Asianet Fine Sourcing is a premium Wine Agency
+                            dedicated to bringing fine Burgundy wine to ASIAN
+                            markets.
+                        </p>
+                        <p>
+                            We are sourcing wine from small family-owned domains
+                            as well as from innovative producers whose wine offers
+                            outstanding value for money. Asianet Fine Sourcing
+                            maximizes the potential of these products by selecting the
+                            most relevant importers for each market of
+                            the ASEAN region.
+                        </p>
+                        <p>
+                            We also source wine estates of other
+                            regions of France at the request of our trade partners.
+                        </p>
+                    </div>
+        
+                    <div className="basis-1/2 px-4 susm:hidden md:block">
                         <p className="">
                             Asianet Fine Sourcing is a premium Wine Agency
                             dedicated to bringing fine Burgundy wine to ASIAN
@@ -50,7 +70,7 @@ const AboutUsComponent: React.FC<IAboutUsComponent> = (props) => {
                         </p>
                     </div>
 
-                    <div className="basis-1/2 px-4">
+                    <div className="basis-1/2 px-4 susm:hidden md:block ">
                         <p>
                             Our market experience and our connections in the Wine
                             trade in South East Asia make us the perfect link between

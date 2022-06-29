@@ -38,8 +38,10 @@ const DomaineComponent: React.FC<IDomaineComponent> = (props) => {
     return (
         <>
 
-            <div className="container mx-auto grid grid-cols-3 mt-10 text-center ">
-                {props.arrayImg.map((img, index) => {
+
+            <div className="container mx-auto grid sm:grid-cols-2 mt-10 text-center susm:grid-cols-1 lg:grid-cols-3">
+                {props.arrayImg.map((img, key) => {
+
                     return (
                         <div key={index} >
                             <p className="font-normal mb-5 text-xl"> {img.name}</p>
