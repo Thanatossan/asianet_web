@@ -18,7 +18,7 @@ const OurserviceComponent : React.FC<IOurServicesComponent> = (props) => {
                     <h1 className="text-center m-auto py-1 px-5 text-white font-semibold text-xl rounded-full bg-mainColor"> Our Service </h1>
                 </div>
 
-                <div className="container mx-auto  flex flex-row text-justify  mb-5 ">
+                <div className="container mx-auto flex-row text-justify mb-5 md:flex">
                     <div className="basis-1/2 px-4 flex justify-center">
                         <img src="/assets/page/ourServices/servicesForImporter/services for importers 2.JPG" className="my-10 w-48"></img>
 
@@ -43,7 +43,7 @@ const OurserviceComponent : React.FC<IOurServicesComponent> = (props) => {
                     </div>
                 </div>
 
-                <div className="container mx-auto  flex flex-row text-justify mb-5 ">
+                <div className="container mx-auto   flex-row text-justify mb-5 md:flex">
                     <div className="basis-1/2 px-4 flex py-10 justify-center">
                     <Carousel showArrows={true} showThumbs={false} showStatus={false} className="pt-10 w-72" >
                         {props.arrayImg.map((img, key) => {
@@ -73,7 +73,7 @@ const OurserviceComponent : React.FC<IOurServicesComponent> = (props) => {
                         <div className="flex-grow border-t-4 border-secondColor mt-5 mb-5"></div>
                     </div>
                 </div>
-                <div className="container mx-auto  flex flex-row text-justify  mb-5 ">
+                <div className="container mx-auto  flex-row text-justify  mb-5 md:flex">
                     <div className="basis-1/2 px-4 flex justify-center">
                         <img src="/assets/page/ourServices/servicesForAsian/Service for Asian collectors.png" className="my-12 w-48"></img>
                         
