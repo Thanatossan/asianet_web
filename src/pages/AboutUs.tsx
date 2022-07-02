@@ -4,9 +4,9 @@ import Menu from "../components/main/Menu";
 import Footer from "../components/main/Footer";
 import AboutUsComponent from "../components/page/AboutUsComponent";
 import OurserviceComponent from "../components/page/OurServicesComponent";
+
+
 export interface IAboutPageProps { }
-
-
 const arrayImgImporter = [{
     name:"Looking the great wine for the importers and collectors",
     path: "/assets/page/aboutUs/Looking the great wine for the importers and collectors.JPG",
@@ -39,6 +39,7 @@ const AboutUsPage: React.FC<IAboutPageProps> = (props) => {
     return (
         <>
             <div>
+                
                 <Navbar></Navbar>
                 <Menu current={'About Us'} descript={'We secure strong profitable partnerships on Asean markets'}></Menu>
                 <AboutUsComponent arrayImg={arrayImgImporter}></AboutUsComponent>

@@ -15,13 +15,16 @@ return(
             <div className="h-48">
             <div className="container mx-auto">
                 <div className="flex items-center justify-between pt-6 font-semibold susm:hidden md:flex">
+                    
                     <a href="/"> Home </a>
                     <a href="/aboutUs"> About us </a>
                     <a href="/domaine"> Domaine </a>
                     <a href="/newGallery"> News & Gallery </a>
                     <a href="/meetTast"> Meet & Taste </a>
                     <a href="/contactUs">Contact Us</a>
+
                 </div>
+                
                 <div className="flex  items-center justify-center pt-6 mx-auto">
                  <h1 className="text-5xl" > {props.current}</h1>
                 </div>
