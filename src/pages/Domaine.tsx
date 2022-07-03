@@ -10,7 +10,7 @@ export interface IDomaineProps { }
 
 const arrayImg = [{
     name:"Chateau de Monthelie",
-    path: "assets/page/domaine/Chateau de Monthelie.png",
+    path: "../../../../../../../../../assets/upload/upload_domain/1656830147620-IMG_3060.PNG",
     description: "Bruno Clair founded the domaine which bears his name in 1979. Nowadays, it includes Clos de Bèze, Cazetiers, Clos St-Jacques, Vosne-Romanée, Clos du Fonteny, Chambolle-Musigny, Corton-Charlemagne, Pernand-Vergelesses, Aloxe-Corton, Gevrey-Chambertin and Petite Chapelle.More Information about Domaine"
     ,link:"https://domainedesuremain.com"
 },{

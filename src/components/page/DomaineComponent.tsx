@@ -1,5 +1,5 @@
-import React, { Fragment, useState } from 'react'
-
+import React, { Fragment, useState ,useEffect } from 'react'
+import axios from "axios";
 import { Dialog, Transition } from '@headlessui/react'
 
 export interface IDomaineComponent {
@@ -14,6 +14,25 @@ export interface IDomaineComponent {
 
 
 const DomaineComponent: React.FC<IDomaineComponent> = (props) => {
+    const [arayImg2, setArrayImg] = React.useState(null);
+    var apiUrl = 'http://52.139.176.18/api/get_domain';
+    // useEffect(()=>{
+        
+    //     axios.get(apiUrl).then((repos) => {
+    //         const allRepos = repos.data;
+    //         setArrayImg(allRepos);
+    //       });
+    //       console.log(arayImg2);
+    // },[setArrayImg])
+
+     useEffect(() => {
+    fetch(apiUrl)
+      .then((Response) => Response.json())
+      .then((jsonData) => {
+        setArrayImg(jsonData);
+      });
+      console.log(arayImg2)
+  }, []);
 
     let [isOpen, setIsOpen] = useState(false)
     const [clickedImg, setClickedImg] = useState({
@@ -35,6 +54,9 @@ const DomaineComponent: React.FC<IDomaineComponent> = (props) => {
         setIsOpen(true)
         setClickedImg(img)
     }
+    function replaceString(path: string){
+        return path.replaceAll( "\.\./", "" );
+    }
     return (
         <>
 
@@ -45,7 +67,7 @@ const DomaineComponent: React.FC<IDomaineComponent> = (props) => {
                     return (
                         <div key={key} >
                             <p className="font-normal mb-5 text-xl"> {img.name}</p>
-                            <img src={img.path}
+                            <img src={replaceString(img.path)}
                                 alt="domain img"
                                 className="h-3/5 w-80 mx-auto"
                                 onClick={() => openModal(img)}
