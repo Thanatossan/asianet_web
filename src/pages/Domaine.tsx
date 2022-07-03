@@ -19,13 +19,13 @@ const arrayImg = [{
     description: "lorem2"
     ,link:""
 }]
-const DomainePage: React.FC<IDomaineProps> = (props) => {
+const DomainePage: React.FC<IDomaineProps> = () => {
     return (
         <>
 
             <Navbar></Navbar>
             <Menu current={'Domaine'} descript={'Wines with Authenticity, Distinction and Character'}></Menu>
-            <DomaineComponent arrayImg={arrayImg}></DomaineComponent>
+            <DomaineComponent arrayImg2={arrayImg}></DomaineComponent>
             <Footer></Footer>
 
         </>
