@@ -13,7 +13,7 @@ const ContactUsComponent = () => {
                     </div>
 
                     <div className="basis-3/5 flex flex-col my-10 px-4 mx-auto   ">
-                        <form className="w-3/4 mx-auto">
+                        <form className="sm:w-3/4 sm:mx-auto">
                             <div className="mb-4 space-y-4">
                                 <input className="shadow appearance-none placeholder-mainColor border-mainColor border-2 rounded w-full py-2 px-3 text-mainColor leading-tight focus:outline-none focus:shadow-outline" id="username" type="text" placeholder="Name*" />
                                 <input className="shadow appearance-none placeholder-mainColor border-mainColor border-2 rounded w-full py-2 px-3 text-mainColor leading-tight focus:outline-none focus:shadow-outline" id="username" type="text" placeholder="Email*" />
