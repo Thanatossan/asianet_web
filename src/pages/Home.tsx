@@ -36,13 +36,13 @@ const HomePage: React.FC<IHomePageProps> = (props) =>{
 
                         <div className="container mx-auto">
                             <div className="flex items-center justify-between pt-6 font-semibold">
-                            <a className="hover:animate-bounce hover:bg-gray-700 hover:text-white susm:hidden md:flex"href="/"> Home </a>
+                            <a className="hover:animate-bounce hover:bg-gray-700 hover:text-white susm:hidden md:flex z-40 "href="/"> Home </a>
                     <a className="hover:animate-bounce hover:bg-gray-700 hover:text-white susm:hidden md:flex"href="/aboutUs"> About us </a>
                     <a className="hover:animate-bounce hover:bg-gray-700 hover:text-white susm:hidden md:flex"href="/domaine"> Domaine </a>
                     <a className="hover:animate-bounce hover:bg-gray-700 hover:text-white susm:hidden md:flex"href="/newGallery"> News & Gallery </a>
                     <a className="hover:animate-bounce hover:bg-gray-700 hover:text-white susm:hidden md:flex"href="/meetTast"> Meet & Taste </a>
                     <a className="hover:animate-bounce hover:bg-gray-700 hover:text-white susm:hidden md:flex"href="/contactUs">Contact Us</a>
-                    <Disclosure as="nav" className="z-50">
+                    <Disclosure as="nav" className="sm:absolute z-0">
       {({ open }) => (
         <>
           <div className="max-w-7xl mx-auto px-2 py-0 sm:px-2 lg:px-5 ">

@@ -29,7 +29,7 @@ const Menu1: React.FC<IMenu> = (props) => {
         {backgroundImage: "url(/assets/main/menubackground.png)"}
         }> */}
 
-      <div className='bg-[url("/src/images/menubackground.png")] text-white bg-no-repeat w-full bg-fixed bg-cover relative'>
+      <div className='bg-[url("/src/images/menubackground.png")] text-white bg-no-repeat w-full bg-fixed bg-cover'>
         <div className="h-96 sm:h-60 ">
           <div className="container mx-auto">
             <div className="flex items-center justify-between pt-6 font-semibold ">
@@ -40,7 +40,7 @@ const Menu1: React.FC<IMenu> = (props) => {
               <a className="hover:animate-bounce hover:bg-gray-700 hover:text-white susm:hidden md:flex" href="/newGallery"> News & Gallery </a>
               <a className="hover:animate-bounce hover:bg-gray-700 hover:text-white susm:hidden md:flex" href="/meetTast"> Meet & Taste </a>
               <a className="hover:animate-bounce hover:bg-gray-700 hover:text-white susm:hidden md:flex" href="/contactUs">Contact Us</a>
-              <Disclosure as="nav" className="absolute z-0">
+              <Disclosure as="nav" className="sm:absolute z-0">
                 {({ open }) => (
                   <>
                     <div className="max-w-7xl mx-auto px-2 py-0 sm:px-2 lg:px-5">
@@ -58,11 +58,6 @@ const Menu1: React.FC<IMenu> = (props) => {
                         </div>
 
                         <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-
-
-
-
-
 
                         </div>
                       </div>
