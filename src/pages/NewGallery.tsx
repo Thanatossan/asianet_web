@@ -26,10 +26,10 @@ const arrayImg = [{
 }
 ,{
     name:"THE SAINT VINCENT TOURNANTE 2022",
-    arrayPath: ["/assets/page/newGallery/THE SAINT VINCENT TOURNANTE 2022/NEWS _ GALLERY 6.png",
-    "/assets/page/newGallery/THE SAINT VINCENT TOURNANTE 2022/NEWS _ GALLERY 7.png",
-    "/assets/page/newGallery/THE SAINT VINCENT TOURNANTE 2022/NEWS _ GALLERY 8.png",
-    "/assets/page/newGallery/THE SAINT VINCENT TOURNANTE 2022/NEWS _ GALLERY 9.png"],
+    arrayPath: ["/assets/page/newGallery/THE SAINT VINCENT TOURNANTE 2022/News and Gallery 6.png",
+    "/assets/page/newGallery/THE SAINT VINCENT TOURNANTE 2022/News and Gallery 7.png",
+    "/assets/page/newGallery/THE SAINT VINCENT TOURNANTE 2022/News and Gallery 8.png",
+    "/assets/page/newGallery/THE SAINT VINCENT TOURNANTE 2022/News and Gallery 9.png"],
     description: "The Saint Vincent Tournate 2022 was taking the place from March 19-20, 2022 at Puligny-Montrachet. There were a thousand of tourists per hour during the event. There were also the several of Domains where you can taste the wine and local dishes."
 }
 ]
