@@ -32,15 +32,14 @@ const MeetTastPage = () => {
     return (
 
         <>
-            {!isLoading ?
+
                 <div>
                     <Navbar></Navbar>
                     <Menu current={'Meet & Tast'} descript={''}></Menu>
                     <MeetTastComponent arrayImg={arrayImg}></MeetTastComponent>
                     <Footer></Footer>
                 </div>
-                : <Lottie animationData={loadAnimation} className="mx-auto h-screen" loop={true} />
-            }
+
         </>
     )
 

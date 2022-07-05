@@ -19,15 +19,12 @@ const ContactUs: React.FC<IContactUsProps> = (props) => {
     }, [])
     return (
         <>
-        {!isLoading ?
                 <div>
             <Navbar></Navbar>
             <Menu current={'Contact Us'} descript={'We secure strong profitable partnerships on Asean markets'}></Menu>
             <ContactUsComponent></ContactUsComponent>
             <Footer></Footer>
             </div>
-                : <Lottie animationData={loadAnimation} className="mx-auto h-screen" loop={true} />
-            }
         </>
     )
 }

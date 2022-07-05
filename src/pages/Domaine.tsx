@@ -161,15 +161,12 @@ const DomainePage: React.FC<IDomaineProps> = () => {
     }, [])
     return (
         <>
-            {!isLoading ?
                 <div>
                     <Navbar></Navbar>
                     <Menu current={'Domaine'} descript={'Wines with Authenticity, Distinction and Character'}></Menu>
                     <DomaineComponent arrayImg={arrayImg}></DomaineComponent>
                     <Footer></Footer>
                 </div>
-                : <Lottie animationData={loadAnimation} className="mx-auto h-screen" loop={true} />
-            }
         </>
     )
 }

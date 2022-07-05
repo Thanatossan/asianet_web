@@ -47,15 +47,14 @@ const NewGalleryPage: React.FC<INewGalleryProps> = (props) => {
     }, [])
     return (
         <>
-            {!isLoading ?
+
                 <div>
                     <Navbar></Navbar>
                     <Menu current={'New & Gallery'} descript={''}></Menu>
                     <NewGalleryComponent arrayImg={arrayImg}></NewGalleryComponent>
                     <Footer></Footer>
                 </div>
-                : <Lottie animationData={loadAnimation} className="mx-auto h-screen" loop={true} />
-            }
+
         </>
     )
 }

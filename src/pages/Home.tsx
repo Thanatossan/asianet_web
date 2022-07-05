@@ -34,7 +34,6 @@ const HomePage: React.FC<IHomePageProps> = (props) => {
   }, [])
   return (
     <>
-      {!isLoading ?
         <div>
           <Navbar></Navbar>
 
@@ -127,8 +126,7 @@ const HomePage: React.FC<IHomePageProps> = (props) => {
 
           <Footer></Footer>
         </div>
-        : <Lottie animationData={loadAnimation} className="mx-auto h-screen" loop={true} />
-      }
+
     </>
   )
 }
