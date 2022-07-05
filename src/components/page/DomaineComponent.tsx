@@ -3,11 +3,12 @@ import axios from "axios";
 import { Dialog, Transition } from '@headlessui/react'
 
 export interface IDomaineComponent {
-    arrayImg2: {
-        name: string,
-        path: string,
-        description: string
-        link: string
+    arrayImg: {
+        id:number,
+        domain_name: string,
+        domain_description: string,
+        image_path: string,
+        link_url: string
     }[]
 
 }
@@ -22,18 +23,18 @@ const DomaineComponent: React.FC<IDomaineComponent> = (props) => {
         link_url: ""
     }]
     );
-    var apiUrl = 'http://52.139.176.18/api/get_domain';
+    // var apiUrl = 'http://52.139.176.18/api/get_domain';
     const [loading, setLoading] = useState(false);
-    useEffect(() => {
-        const loadImage = async () => {
-            setLoading(true);
-            const response = await axios.get(
-                apiUrl);
-            setArrayImg(response.data)
-            setLoading(false);
-        };
-        loadImage()
-    },[]);
+    // useEffect(() => {
+    //     const loadImage = async () => {
+    //         setLoading(true);
+    //         const response = await axios.get(
+    //             apiUrl);
+    //         setArrayImg(response.data)
+    //         setLoading(false);
+    //     };
+    //     loadImage()
+    // },[]);
 
     let [isOpen, setIsOpen] = useState(false)
     const [clickedImg, setClickedImg] = useState({
@@ -67,7 +68,7 @@ const DomaineComponent: React.FC<IDomaineComponent> = (props) => {
                 <h4>Loading...</h4>) :
 
                 <div className="container mx-auto grid sm:grid-cols-2 mt-10 text-center susm:grid-cols-1 lg:grid-cols-3">
-                    {arrayImg.map((img, key) => {
+                    {props.arrayImg.map((img, key) => {
 
                         return (
                             <div key={key} >

@@ -1,4 +1,10 @@
 module.exports = {
+  variants: {
+    extend: {
+        // ...
+       borderStyle: ['hover'],
+    }
+},
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
   ],

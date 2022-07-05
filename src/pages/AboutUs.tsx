@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useEffect } from 'react';
 import Navbar from "../components/main/Navbar";
 import Menu from "../components/main/Menu";
 import Footer from "../components/main/Footer";
 import AboutUsComponent from "../components/page/AboutUsComponent";
 import OurserviceComponent from "../components/page/OurServicesComponent";
+import Lottie from "lottie-react";
+import loadAnimation from "../images/loading.json";
 export interface IAboutPageProps { }
 
 
@@ -36,8 +38,17 @@ const arrayImgProducer = [{
 }]
 
 const AboutUsPage: React.FC<IAboutPageProps> = (props) => {
+    const [isLoading, setIsLoading] = React.useState(true);
+    const handleLoading = () => {
+        setIsLoading(false);
+    }
+    useEffect(() => {
+        window.addEventListener("load", handleLoading);
+        return () => window.removeEventListener("load", handleLoading);
+    }, [])
     return (
         <>
+        {!isLoading ?
             <div>
                 <Navbar></Navbar>
                 <Menu current={'About Us'} descript={'We secure strong profitable partnerships on Asean markets'}></Menu>
@@ -46,6 +57,8 @@ const AboutUsPage: React.FC<IAboutPageProps> = (props) => {
                 <OurserviceComponent arrayImg={arrayImgProducer}></OurserviceComponent>
                 <Footer></Footer>
             </div>
+             : <Lottie animationData={loadAnimation} className="mx-auto h-screen" loop={true} />
+            }
         </>
     )
 }
