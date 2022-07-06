@@ -115,7 +115,7 @@ const HomePage: React.FC<IHomePageProps> = (props) => {
               </div>
               <div className='h-16'></div>
               <div className='container mx-auto text-center'>
-                <h1 className='text-3xl font-semibold'> For Asian Market</h1>
+                <h1 className='text-3xl font-semibold'> For Asian Markets</h1>
               </div>
               <div className='h-20'></div>
               <img src="/assets/page/home/line.png" className="items-center justify-between container mx-auto" alt="asianet Logo" />

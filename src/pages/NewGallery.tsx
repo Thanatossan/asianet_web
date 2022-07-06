@@ -11,7 +11,7 @@ const arrayImg = [{
     arrayPath: ["/assets/page/newGallery/HOSTED A WINE TASTING/MEET _ TEST7.png",
         "/assets/page/newGallery/HOSTED A WINE TASTING/MEET _ TEST8.png",
         "/assets/page/newGallery/HOSTED A WINE TASTING/News and Gallery 10.png"],
-    description: "On the April 1, 2022 We hosteda wine tasting event and dinner for the importers, WINE5 Company from Thailand and the other guests at L’orangerie Demigny. We had a great time by enjoying the wine, dining and facilities of our place with the excellent food, prepared by La Comédie du Vin"
+    description: "On the April 1, 2022 We hosted wine tasting event and dinner for the importers, WINE5 Company from Thailand and the other guests at L’orangerie Demigny. We had a great time by enjoying the wine, dining and facilities of our place with the excellent food, prepared by La Comédie du Vin"
 }, {
     name: "LES GRANDS JOURS DE BOURGOGNE",
     arrayPath: ["/assets/page/newGallery/LES GRANDS JOURS DE BOURGOGNE/News and Gallery 13.png",
@@ -50,7 +50,7 @@ const NewGalleryPage: React.FC<INewGalleryProps> = (props) => {
 
                 <div>
                     <Navbar></Navbar>
-                    <Menu current={'New & Gallery'} descript={''}></Menu>
+                    <Menu current={'News & Gallery'} descript={''}></Menu>
                     <NewGalleryComponent arrayImg={arrayImg}></NewGalleryComponent>
                     <Footer></Footer>
                 </div>

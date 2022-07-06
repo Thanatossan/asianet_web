@@ -12,7 +12,7 @@ const Navbar = () => {
           <div className="px-1 pt-2">
             <Icon icon="carbon:location-filled" style={{ fontSize: '1rem' }} />
           </div>
-          <h1 className="font-bold text-sm  px-2 pt-2 susm:hidden md:block">Asianet Find Sourcing Rue la Californie 21200 Beaune FRANCE</h1>
+          <h1 className="font-bold text-sm  px-2 pt-2 susm:hidden md:block">Asianet Fine Sourcing Rue de la Californie 21200 Beaune FRANCE</h1>
           <div className=" sm:ml-6">
         
                   
@@ -31,7 +31,7 @@ const Navbar = () => {
             <li >
               <a
                 className="px-2 py-2 flex  "
-                href="https://www.instagram.com/petite_cuisine_thai/"
+                href="https://www.instagram.com/burgundy_wine_connect/"
               >
                 <Icon icon="akar-icons:instagram-fill" />
               </a>

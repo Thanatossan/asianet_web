@@ -6,18 +6,18 @@ import MeetTastComponent from "../components/page/MeetTastComponent";
 import Lottie from "lottie-react";
 import loadAnimation from "../images/loading.json";
 const arrayImg = [{
-    name: "HOSTED A WINE TASTING",
-    arrayPath: ["/assets/page/newGallery/HOSTED A WINE TASTING/MEET _ TEST7.png",
-        "/assets/page/newGallery/HOSTED A WINE TASTING/MEET _ TEST8.png",
-        "/assets/page/newGallery/HOSTED A WINE TASTING/News and Gallery 10.png"],
-    description: "On the April 1, 2022 We hosteda wine tasting event and dinner for the importers, WINE5 Company from Thailand and the other guests at L’orangerie Demigny. We had a great time by enjoying the wine, dining and facilities of our place with the excellent food, prepared by La Comédie du Vin"
-}, {
-    name: "LES GRANDS JOURS DE BOURGOGNE",
-    arrayPath: ["/assets/page/newGallery/LES GRANDS JOURS DE BOURGOGNE/News and Gallery 13.png",
-        "/assets/page/newGallery/LES GRANDS JOURS DE BOURGOGNE/News and Gallery 14.png",
-        "/assets/page/newGallery/LES GRANDS JOURS DE BOURGOGNE/News and Gallery 15.png",
-        "/assets/page/newGallery/LES GRANDS JOURS DE BOURGOGNE/News and Gallery 16.png"],
-    description: "On March 20-25, 2022. There was the great international event as Les Grands Jours de Bourgogne, the wine event for International meetings trade only. DE SURMAIN Emmanuel and the staff ofASIANET FINE SOURCING had participated to this event for tasting and looking for the great wine for ourcustomers."
+    name: "Meet and Taste 1",
+    arrayPath: ["/assets/page/meetTast/1/MEET _ TEST1.png",
+    "/assets/page/meetTast/1/MEET _ TEST2.png",
+    "/assets/page/meetTast/1/MEET _ TEST3.png",
+    "/assets/page/meetTast/1/MEET _ TEST4.png",
+    "/assets/page/meetTast/1/MEET _ TEST5.png",
+    "/assets/page/meetTast/1/MEET _ TEST6.png",
+    "/assets/page/meetTast/1/MEET _ TEST7.png",
+    "/assets/page/meetTast/1/MEET _ TEST8.png",
+
+],
+    description: "We have the place to offer you for arrangement workshop or event with big outdoor garden. It is located in Demigny where is just 15 minutes away from Beaune by driving. If you are looking for place to have any event suchas wine tasting, creative meeting, workshop, seminar, business lunch or dinner, party, weeding or others. This place is the great choice for you as there are fully of facilities, 4 restrooms, chairs, tables, rooms for staying overnight if you wish and the capacity indoor is 50-60 people and more than 150 people for outdoor. For more information and price for rental please directly contact us."
 }
 ]
 const MeetTastPage = () => {
@@ -35,7 +35,7 @@ const MeetTastPage = () => {
 
                 <div>
                     <Navbar></Navbar>
-                    <Menu current={'Meet & Tast'} descript={''}></Menu>
+                    <Menu current={'Meet & Taste'} descript={''}></Menu>
                     <MeetTastComponent arrayImg={arrayImg}></MeetTastComponent>
                     <Footer></Footer>
                 </div>

@@ -31,7 +31,7 @@ const Footer = () => {
                             <li >
                                 <a
                                     className="px-2 py-2 flex  "
-                                    href="https://www.instagram.com/petite_cuisine_thai"
+                                    href="https://www.instagram.com/burgundy_wine_connect/"
                                 >
                                     <Icon icon="akar-icons:instagram-fill" />
                                 </a>
@@ -51,7 +51,7 @@ const Footer = () => {
                         <div className="px-1">
                             <Icon icon="carbon:location-filled" style={{ fontSize: '1rem' }} />
                         </div>
-                        <p className=" text-sm">Asianet Find Sourcing Rue la Californie 21200 Beaune FRANCE</p>
+                        <p className=" text-sm">Asianet Fine Sourcing Rue de la Californie 21200 Beaune FRANCE</p>
                     </div>
                 </div>
             </div>
