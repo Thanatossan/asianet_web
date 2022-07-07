@@ -16,8 +16,8 @@ const AboutUsComponent: React.FC<IAboutUsComponent> = (props) => {
     return (
         <>
             <div className="">
-                <div className="container mx-auto w-72 ">
-                    <Carousel showArrows={true} showThumbs={false} showStatus={false} className="pt-10 py-3" >
+                <div className="container mx-auto w-[32rem]">
+                    <Carousel showArrows={true} showThumbs={false} showStatus={false} className="mt-10 my-3" >
                         {props.arrayImg.map((img, key) => {
                             return (
                                 <div key={key} >

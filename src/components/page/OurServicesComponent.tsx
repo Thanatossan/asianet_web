@@ -20,7 +20,7 @@ const OurserviceComponent : React.FC<IOurServicesComponent> = (props) => {
 
                 <div className="container mx-auto flex-row text-justify mb-5 md:flex">
                     <div className="basis-1/2 px-4 flex justify-center">
-                        <img src="/assets/page/ourServices/servicesForImporter/services for importers 2.JPG" className="my-10 w-48"></img>
+                        <img src="/assets/page/ourServices/servicesForImporter/services for importers 2.JPG" className="my-10 w-[32rem]"></img>
 
                     </div>
 
@@ -45,7 +45,7 @@ const OurserviceComponent : React.FC<IOurServicesComponent> = (props) => {
 
                 <div className="container mx-auto   flex-row text-justify mb-5 md:flex">
                     <div className="basis-1/2 px-4 flex py-10 justify-center">
-                    <Carousel showArrows={true} showThumbs={false} showStatus={false} className="pt-10 w-72" >
+                    <Carousel showArrows={true} showThumbs={false} showStatus={false} className="pt-10 w-[32rem]" >
                         {props.arrayImg.map((img, key) => {
                             return (
                                 <div key={key} >
@@ -75,11 +75,11 @@ const OurserviceComponent : React.FC<IOurServicesComponent> = (props) => {
                 </div>
                 <div className="container mx-auto  flex-row text-justify  mb-5 md:flex">
                     <div className="basis-1/2 px-4 flex justify-center">
-                        <img src="/assets/page/ourServices/servicesForAsian/Service for Asian collectors.png" className="my-12 w-48"></img>
+                        <img src="/assets/page/ourServices/servicesForAsian/Service for Asian collectors.png" className="my-12 w-[32rem]"></img>
                         
 
                     </div>
-
+                        
                     <div className="basis-1/2 px-4">
                         <div className="relative flex py-5 items-center">
                             <div className="flex-grow border-t-4 border-secondColor"></div>

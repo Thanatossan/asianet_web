@@ -32,15 +32,15 @@ const NewGalleryComponent: React.FC<INewGalleryComponent> = (props) => {
             
             <div className="container mx-auto mb-5">
             <div className="basis-1/2 px-4 flex flex-col justify-center mx-auto text-center susm:block sm:hidden">
-                    <img src="/assets/page/newGallery/News and Gallery 19 (1).png" className=" mx-auto mt-10 w-64 h-52"></img>
+                    <img src="/assets/page/newGallery/News and Gallery 19 (1).png" className=" mx-auto mt-10 w-[35rem] h-auto"></img>
                     <h1>Burgundy Vineyard cycling route</h1>
                 </div>
             <div className="basis-1/2 flex flex-col px-4 justify-center mx-auto text-center susm:block sm:hidden ">
-                    <img src="/assets/page/newGallery/News and Gallery 19 (3).png" className=" mx-auto mt-10 w-64 h-52"></img>
+                    <img src="/assets/page/newGallery/News and Gallery 19 (3).png" className=" mx-auto mt-10 w-[35rem] h-auto"></img>
                     <h1>Wine tasting</h1>
                 </div>
                 <div className="flex flex-col px-4 justify-center mx-auto text-center">
-                    <img src="/assets/page/newGallery/News and Gallery 19 (2).png" className=" mx-auto mt-10 w-64 h-52"></img>
+                    <img src="/assets/page/newGallery/News and Gallery 19 (2).png" className=" mx-auto mt-10 w-[32rem] h-auto"></img>
                     <h1 >Hospices de Beaune</h1>
                 </div>
                 
@@ -60,7 +60,7 @@ const NewGalleryComponent: React.FC<INewGalleryComponent> = (props) => {
 
                             return (
                                 <div key={key}  >
-                                    <Carousel showArrows={true} showThumbs={false} showStatus={false} className="pt-10 py-3 w-72 mx-auto" >
+                                    <Carousel showArrows={true} showThumbs={false} showStatus={false} className="pt-10 py-3 w-[32rem] mx-auto" >
                                     {img.arrayPath.map((path,key)=>{
                                         return (
                                             <div key={key}>
