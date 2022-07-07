@@ -55,12 +55,12 @@ const NewGalleryComponent: React.FC<INewGalleryComponent> = (props) => {
             <div className="flex h-10  mx-auto my-5 ">
                 <h1 className="text-center m-auto py-2 px-20 text-white  text-xl rounded-full bg-mainColor"> Gallery </h1>
             </div>
-            <div className="container mx-auto mb-8">
+            <div className="container mx-auto mb-8 ">
                         {props.arrayImg.map((img, key) => {
 
                             return (
                                 <div key={key}  >
-                                    <Carousel showArrows={true} showThumbs={false} showStatus={false} className="pt-10 py-3 w-[32rem] mx-auto" >
+                                    <Carousel showArrows={true} showThumbs={false} showStatus={false} className="pt-10 py-3 sm:w-[32rem] mx-auto susm:w-[16rem]" >
                                     {img.arrayPath.map((path,key)=>{
                                         return (
                                             <div key={key}>

@@ -17,7 +17,7 @@ const MeetTastComponent:React.FC<IMeetTastComponent> = (props) =>{
                         {props.arrayImg.map((img, key) => {
                             return (
                                 <div key={key}  >
-                                    <Carousel showArrows={true} showThumbs={false} showStatus={false} className="pt-10 py-3 w-[32rem] mx-auto" >
+                                    <Carousel showArrows={true} showThumbs={false} showStatus={false} className="pt-10 py-3 sm:w-[32rem] mx-auto susm:w-[16rem]" >
                                     {img.arrayPath.map((path,key)=>{
                                         return (
                                             <div key={key}>
