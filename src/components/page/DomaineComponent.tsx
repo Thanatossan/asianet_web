@@ -116,7 +116,7 @@ const DomaineComponent: React.FC<IDomaineComponent> = (props) => {
                                             <div className="mt-5 ">
                                                 <img src={clickedImg.image_path}
                                                     alt="domain img"
-                                                    className=" w-80 mx-auto "
+                                                    className=" w-80 mx-auto object-contain "
                                                 ></img>
                                             </div>
 
