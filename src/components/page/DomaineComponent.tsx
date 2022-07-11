@@ -75,7 +75,7 @@ const DomaineComponent: React.FC<IDomaineComponent> = (props) => {
                                 <p className="font-normal mb-5 text-xl"> {img.domain_name}</p>
                                 <img src={img.image_path}
                                     alt="domain img"
-                                    className="h-3/5 w-80 mx-auto"
+                                    className="h-3/5 w-80 mx-auto object-contain"
                                     onClick={() => openModal(img)}
                                 ></img>
                             </div>

@@ -14,7 +14,7 @@ const arrayImg =
         id: 0,
         domain_name: "Domaine Bruno Clair",
         domain_description: "Bruno Clair founded the domaine which bears his name in 1979. Nowadays, it includes Clos de Bèze, Cazetiers, Clos St-Jacques, Vosne-Romanée, Clos du Fonteny, Chambolle-Musigny, Corton-Charlemagne, Pernand-Vergelesses, Aloxe-Corton, Gevrey-Chambertin and Petite Chapelle.",
-        image_path: "assets/page/domaine/Domaine Brune Clair.png",
+        image_path: "assets/page/domaine/Domaine Brune Clair.jpg",
         link_url: "https://www.brunoclair.com"
     }, {
         id: 1,
@@ -33,7 +33,7 @@ const arrayImg =
         id: 3,
         domain_name: "Comtes Lafon",
         domain_description: "The 16 hectare estate is comprised of some of the most famous 'Crus' in the region. Meursault, Puligny and Montrachet are planted with Chardonnay, and Volnay and Monthélie with Pinot Noir.The average age of the vines is high (32 years old), and the grapes are harvested manually after numerous checks for maturity.",
-        image_path: "assets/page/domaine/Comtes Lafon.png",
+        image_path: "assets/page/domaine/Comtes Lafon.jpg",
         link_url: "http://www.comteslafon.fr/index.htm"
     },
     {
@@ -148,6 +148,13 @@ const arrayImg =
         domain_description: "Domaine Robert Sirugue is a family-run estate of 11 ha based in Vosne-Romanée. Grands Echezeaux and Vosne-Romanée 1er Cru Les Petits Monts are the treasure of this estate.",
         image_path: "assets/page/domaine/Domaine Robert Sirugue.png",
         link_url: "https://www.dvp-vins-domaines.com/fr/domaine/51/domaine-robert-sirugue"
+    },
+    {
+        id: 20,
+        domain_name: "Domaine GHISLAINE BARTHOD",
+        domain_description: "Domaine Ghislaine Barthod is a small family property located in Chambolle-Musigny. The vineyard (just over 6 hectares) has five premier crus. From this quality terroir, Ghislaine Barthod produces great character wines which age beautifully.",
+        image_path: "assets/page/domaine/Domaine GHISLAINE BARTHOD.jpg",
+        link_url: ""
     }
     ]
 const DomainePage: React.FC<IDomaineProps> = () => {
@@ -163,7 +170,7 @@ const DomainePage: React.FC<IDomaineProps> = () => {
         <>
                 <div>
                     <Navbar></Navbar>
-                    <Menu current={'Domaine'} descript={'Wines with Authenticity, Distinction and Character'}></Menu>
+                    <Menu current={'Domaines'} descript={'Wines with Authenticity, Distinction and Character'}></Menu>
                     <DomaineComponent arrayImg={arrayImg}></DomaineComponent>
                     <Footer></Footer>
                 </div>

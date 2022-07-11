@@ -36,7 +36,7 @@ const Menu1: React.FC<IMenu> = (props) => {
 
               <a className="hover:animate-bounce hover:bg-gray-700 hover:text-white susm:hidden md:flex z-40" href="/"> Home </a>
               <a className="hover:animate-bounce hover:bg-gray-700 hover:text-white susm:hidden md:flex" href="/aboutUs"> About us </a>
-              <a className="hover:animate-bounce hover:bg-gray-700 hover:text-white susm:hidden md:flex" href="/domaine"> Domaine </a>
+              <a className="hover:animate-bounce hover:bg-gray-700 hover:text-white susm:hidden md:flex" href="/domaine"> Domaines </a>
               <a className="hover:animate-bounce hover:bg-gray-700 hover:text-white susm:hidden md:flex" href="/newGallery"> News & Gallery </a>
               <a className="hover:animate-bounce hover:bg-gray-700 hover:text-white susm:hidden md:flex" href="/meetTast"> Meet & Taste </a>
               <a className="hover:animate-bounce hover:bg-gray-700 hover:text-white susm:hidden md:flex" href="/contactUs">Contact Us</a>
