@@ -10,6 +10,7 @@ export interface INewGalleryComponent {
         name: string,
         arrayPath: string[],
         description: string
+        topic_id: number
     }[]
 }
 const NewGalleryComponent: React.FC<INewGalleryComponent> = (props) => {

@@ -4,9 +4,11 @@ import { Carousel } from 'react-responsive-carousel';
 
 export interface IMeetTastComponent {
     arrayImg: {
+        
         name: string,
         arrayPath: string[],
-        description: string
+        description: string,
+        topic_id : number
     }[]
 }
 
